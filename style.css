@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 600px;
+}
+p {
+  padding: 5px;
+}
+
+h2 {
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+body {
+  background-color: #f3f3f3;
+  /* gets rid of default margin and padding*/
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+.block-title {
+  background: white;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.page-title {
+  width: 600px;
+  margin: auto;
+}
+
+.wrapper-feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-title > div {
+  width: 50%;
+  float: left;
+}
+.title_ig {
+  font-size: 18px;
+  float: left;
+}
+
+.date {
+  text-align: right;
+  color: #a5a7aa;
+}
+
+.post_ig {
+  background: white;
+  margin-bottom: 60px;
+  width: 600px;
+}
+
+.img-ig {
+  border-bottom: 1px solid #eeefef;
+  border-top: 1px solid #eeefef;
+}
+
+.caption-ig {
+  padding: 18px;
+}
