@@ -38,6 +38,7 @@ body {
   align-items: center;
 }
 
+/* targets children div*/
 .container-title > div {
   width: 50%;
   float: left;
