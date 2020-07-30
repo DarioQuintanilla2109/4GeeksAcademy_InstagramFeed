@@ -7,6 +7,7 @@ img {
 }
 p {
   padding: 5px;
+  margin: 0;
 }
 
 h2 {
@@ -39,16 +40,14 @@ body {
 }
 
 /* targets children div*/
-.container-title > div {
-  width: 50%;
-  float: left;
-}
+
 .title_ig {
   font-size: 18px;
   float: left;
 }
 
 .date {
+  padding-top: 8px;
   text-align: right;
   color: #a5a7aa;
 }
